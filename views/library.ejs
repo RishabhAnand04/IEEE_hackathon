@@ -144,12 +144,14 @@
         let pgiTrail2x = '30.765666152944153';
         let pgiTrail2y = '76.77708392840628';
 
-        let pecLibrary1x = '30.76718450009541';
-        let pecLibrary1y = '76.7855038505068';
-        let pgiLibrary1x = '30.763472';
-        let pgiLibrary1y = '76.776201';
-        let puLibrary1x = '30.76163913001587';
-        let puLibrary1y = '76.76999211471716';
+
+        
+        let pecLibrary1x = '30.738949160529124';
+        let pecLibrary1y = '76.80118182994573';
+        let pgiLibrary1x = '30.741180794391806';
+        let pgiLibrary1y = '76.76509602824689';
+        let puLibrary1x = '30.744574163668535';
+        let puLibrary1y = '76.73797353087822';
 
         let pecElevator1x = '30.765277221296884';
         let pecElevator1y = '76.78587737100858';
@@ -438,9 +440,9 @@
                     icon: "/img/trail.png",
                     str: '<img src="/img/stuc.jpeg" alt="Girl in a jacket" width="270" height="250">' +
                         '<div class="myDiv">' +
-                        '<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At StuC</h2>' +
-                        '<p >&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hand rails are provided all across the' +
-                        '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; building for partially disabled people</p>' +
+                        '<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shrikant Therapy Center</h2>' +
+                        // '<p >&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hand rails are provided all across the' +
+                        // '<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; building for partially disabled people</p>' +
                         '</div> ',
                     title: "At StuC",
                     type: "trail",
@@ -452,40 +454,40 @@
                     b: pecLibrary1y,
                     str: '<img src="/img/dsa.jpeg"  width="310" height="250">' +
                         '<div class="myDiv">' +
-                        '<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Near Computer Center</h2>' +
-                        '<p>Library with books written in braille. Padhega</p>' +
-                        '<p> India tabhi to badega India.</p>' +
+                        '<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chaitanya Therapy Center</h2>' +
+                        // '<p>Library with books written in braille. Padhega</p>' +
+                        // '<p> India tabhi to badega India.</p>' +
                         '</div> ',
                     icon: "/img/library.png",
-                    title: "Near Computer Center",
+                    title: "Chaitanya Therapy Center",
                     type: "library",
 
                 },
                 {
                     a: pgiLibrary1x,
                     b: pgiLibrary1y,
-                    str: '<img src="/img/pfilibrary.jfif"  width="310" height="250">' +
+                    str: '<img src="/img/stuc.jpeg"  width="310" height="250">' +
                         '<div class="myDiv">' +
-                        '<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tulsi Das Library</h2>' +
-                        '<p>Library with books written in braille. Padhega</p>' +
-                        '<p> India tabhi to badega India.</p>' +
+                        '<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shrikant Therapy Center</h2>' +
+                        // '<p>Library with books written in braille. Padhega</p>' +
+                        // '<p> India tabhi to badega India.</p>' +
                         '</div> ',
                     icon: "/img/library.png",
-                    title: "Tulsi Das Library",
+                    title: "Shrikant Therapy Center",
                     type: "library",
 
                 },
                 {
                     a: puLibrary1x,
                     b: puLibrary1y,
-                    str: '<img src="/img/pulibrary.jfif" width="310" height="250">' +
+                    str: '<img src="/img/sex.jpeg" width="310" height="250">' +
                         '<div class="myDiv">' +
-                        '<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AC Joshi Library</h2>' +
-                        '<p>Library with books written in braille. Padhega</p>' +
-                        '<p> India tabhi to badega India.</p>' +
+                        '<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oxford Therapy Center</h2>' +
+                        // '<p>Library with books written in braille. Padhega</p>' +
+                        // '<p> India tabhi to badega India.</p>' +
                         '</div> ',
                     icon: "/img/library.png",
-                    title: "AC Joshi Library",
+                    title: "Oxford Therapy Center",
                     type: "library",
 
                 },
@@ -624,8 +626,8 @@
 
         function initMap() {
             let mapOptions = {
-                center: new google.maps.LatLng(x, y),
-                zoom: 15,
+                center: new google.maps.LatLng(30.725875, 76.751600),
+                zoom: 13,
                 mapId: typeOfMap,
                 // minZoom: 14,
                 // maxZoom: 18,

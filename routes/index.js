@@ -13,6 +13,7 @@ const libraryController = require('../controllers/library_controller');
 const deleteController = require('../controllers/delete_marker');
 const thankController = require('../controllers/thanks_controller')
 const ticketController = require('../controllers/ticket_controller');
+const formController = require('../controllers/form_controller');
 
 
 
@@ -23,9 +24,10 @@ router.get('/', homeController.home);
 
 router.post('/map',mapController.insert);
 
+router.get('/form', formController.go);
 router.get('/restroom', restroomController.go);
-router.get('/restaurant' ,restaurantController.go);
-router.get('/library',libraryController.go);
+router.get('/medical' ,restaurantController.go);
+router.get('/therapy',libraryController.go);
 router.get('/trail',trailController.go);
 router.get('/office',officeController.go);
 router.get('/elevator',elevatorController.go);

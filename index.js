@@ -10,6 +10,7 @@ const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');
 const MongoStore = require('connect-mongo')(session);
 const path = require('path')
+// import swal from 'sweetalert';
 app.use(express.urlencoded());
 
 
